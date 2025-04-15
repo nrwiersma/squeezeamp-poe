@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SqueezeAMPPOE")(type "KiCad")(uri "${KIPRJMOD}/SqueezeAMPPOE.kicad_sym")(options "")(descr ""))
+)
