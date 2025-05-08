@@ -1,0 +1,144 @@
+(footprint "L0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.317765 -1.588793 0)
+		(layer "F.SilkS")
+		(uuid "5f0b9028-c16f-41d5-a077-501224bf0241")
+		(effects
+			(font
+				(size 0.700572 0.700572)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L0805"
+		(at 0.317795 1.588961 0)
+		(layer "F.Fab")
+		(uuid "9c3934fd-f76d-48d3-87f6-7dc1f4a3a6a9")
+		(effects
+			(font
+				(size 0.700644 0.700644)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce1634d9-19b4-4b03-b303-11d743f247f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5b58c92-3d38-4b42-a58f-3eff8d955266")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8f75afd-44c4-41d4-8f14-e056c1c6365e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.651 -0.889)
+		(end 1.651 -0.889)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b64f055f-6222-4ad9-a5ba-4a7ae5e511d9")
+	)
+	(fp_line
+		(start -1.651 0.889)
+		(end -1.651 -0.889)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf920279-484b-45c3-ab98-b813a291f9ad")
+	)
+	(fp_line
+		(start 1.651 -0.889)
+		(end 1.651 0.889)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09208d42-dcfc-40a4-af46-d227b4f28f3d")
+	)
+	(fp_line
+		(start 1.651 0.889)
+		(end -1.651 0.889)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c93a0c21-de76-4859-9b51-548977f368ee")
+	)
+	(fp_poly
+		(pts
+			(xy -1.46239 -0.762) (xy 1.4605 -0.762) (xy 1.4605 0.762987) (xy -1.46239 0.762987)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "bd219b70-2c63-4b99-9073-f297e76b0283")
+	)
+	(pad "1" smd roundrect
+		(at -0.889 0)
+		(size 1.016 1.397)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "1ec42388-1d5e-4a90-9644-501a5e0815fa")
+	)
+	(pad "2" smd roundrect
+		(at 0.889 0)
+		(size 1.016 1.397)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "8b230d79-b84e-4d0d-a377-f724268380b1")
+	)
+	(model "${KIPRJMOD}/SqueezeAMPPOE.3dshapes/SMD-FERRITE-BEAD-30R-3A_0805_.step"
+		(offset
+			(xyz 0 -0.55 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
