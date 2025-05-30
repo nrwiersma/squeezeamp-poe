@@ -5,7 +5,7 @@
 
 `SqueezeAMP PoE` is an amplifier driven by an ESP32 designed to run [squeezelite-esp32](https://github.com/sle118/squeezelite-esp32), powered by PoE++.
 
-[//]: # (![board image]&#40;assets/assembled.png&#41;)
+![board image](assets/assembled.png)
 
 Features:
 
