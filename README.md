@@ -18,7 +18,18 @@ Features:
 The position of speakers is often not optimal for WiFi, leading to unreliable music streaming. Adding 100Mb ethernet allows
 more reliable connections with ample bandwidth. Given an ethernet connection, PoE is able to provide power for the device.
 
-The schematic is inspired by the [SqueezeAMPagain](https://github.com/hallo-alex/SqueezeAMPagain). 
+The schematic is inspired by the [SqueezeAMPagain](https://github.com/hallo-alex/SqueezeAMPagain).
+
+## Configuration
+
+Install [squeezelite-esp32](https://github.com/sle118/squeezelite-esp32). The simplest method is to use the [installer](https://sle118.github.io/squeezelite-esp32-installer/).
+
+Set the following configuration via the NVS Editor to configure:
+
+dac_config: `model=TAS57xx,bck=33,ws=25,do=32,sda=27,scl=26,mute=4:0`
+eth_config: `model=w5500,cs=15,speed=20000000,intr=18,rst=19`
+spi_config: `mosi=13,clk=14,host=1,miso=12,dc=-1`
+set_GPIO:   `2=spkfault`
 
 ## PCB Fabrication and Assembly by PCBWay
 
