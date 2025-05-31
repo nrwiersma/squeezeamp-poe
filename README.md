@@ -63,3 +63,7 @@ Special thanks to PCBWay for their generous support!
 #### v0.1.0
 
 * Initial schematic and board
+
+#### v0.1.1
+
+* Fixed W5500 crystal clock not being enabled
