@@ -4111,7 +4111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "1000u 25V"
 			(at 96.012 27.94 0)
 			(effects
 				(font
@@ -5131,7 +5131,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u 25V"
 			(at 123.19 27.94 0)
 			(effects
 				(font
@@ -5482,7 +5482,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u 25V"
 			(at 115.57 27.94 0)
 			(effects
 				(font
@@ -5672,7 +5672,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "1000u 25V"
 			(at 106.172 27.94 0)
 			(effects
 				(font
