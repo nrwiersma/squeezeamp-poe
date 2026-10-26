@@ -8790,7 +8790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "1000u 25V"
 			(at 239.268 154.94 0)
 			(effects
 				(font
@@ -10499,7 +10499,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "1000u 25V"
 			(at 239.522 144.78 0)
 			(effects
 				(font

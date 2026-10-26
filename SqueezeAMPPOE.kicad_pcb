@@ -9905,7 +9905,7 @@
 				)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "1000u 25V"
 			(at 0 6.3 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10399,7 +10399,7 @@
 				)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "1000u 25V"
 			(at 0 6.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10893,7 +10893,7 @@
 				)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "1000u 25V"
 			(at 0 6.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13533,7 +13533,7 @@
 				)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "1000u 25V"
 			(at 0 6.3 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15334,7 +15334,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u 25V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16125,7 +16125,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u 25V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18049,7 +18049,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u 25V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "aa52f342-e919-4fcc-8301-6769132e460c")
@@ -22152,7 +22152,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u 25V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
